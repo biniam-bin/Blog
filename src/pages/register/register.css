@@ -1,0 +1,70 @@
+.registerWrapper{
+    background-color: white;
+    display: block;
+    z-index: 100;
+    background: cover;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+
+.register{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.3)
+    ), url("https://images.pexels.com/photos/317355/pexels-photo-317355.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+    background-size: cover;
+    align-items: center;
+}
+
+.registerTitle{
+    font-size: 50px;
+    background-color: transparent;
+}
+
+.registerForm{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.registerForm > label {
+    background-color: transparent;
+    margin: 5px;
+
+}
+
+.registerInput{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.rregisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: teal;
+}
+
+.rloginButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: lightcoral;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
+}
